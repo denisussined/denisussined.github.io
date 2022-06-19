@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import BuilderContainer from "./components/builder/BuilderContainer";
+import MatrixContainer from "./components/matrix/MatrixContainer";
+import {useState} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+
+    const [builder, setBuilder] = useState(true)
+
+    const setBuilderMode = builderMode => {
+        setBuilder(builderMode)
+    }
+
+    return (
+        <div className="app">
+            {
+                builder
+                    ? <BuilderContainer setBuilderMode={setBuilderMode}/>
+                    : <MatrixContainer setBuilderMode={setBuilderMode}/>
+            }
+        </div>
+    )
 }
-
-export default App;

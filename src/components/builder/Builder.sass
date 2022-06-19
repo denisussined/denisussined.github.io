@@ -1,0 +1,48 @@
+.builder
+  display: flex
+  flex-direction: column
+
+  > *
+    margin: 10px 0 0
+
+  h2
+    margin: 0 0 10px
+    text-align: center
+
+  button
+    margin: 20px 0
+    align-self: center
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5)
+    border-width: 0
+    border-radius: 6px
+    background-color: unset
+    font-weight: bold
+
+    &:active
+      transform: translateY(2px)
+      box-shadow: unset
+
+    &:hover
+      cursor: pointer
+
+
+.params
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  gap: 25px
+
+  input
+    width: 35px
+    margin-right: 3px
+    text-align: center
+    border-width: 0 0 1px
+
+    &:focus
+      outline: none
+
+.error
+  margin: 3px 0 0
+  color: red
+  font-size: 11px
+  text-align: end
