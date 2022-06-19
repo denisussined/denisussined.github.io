@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/matrix/static/css/main.393906f7.css",
-    "main.js": "/matrix/static/js/main.f153a75b.js",
-    "static/js/787.ec704a7a.chunk.js": "/matrix/static/js/787.ec704a7a.chunk.js",
-    "static/media/MerriweatherSans-VariableFont_wght.ttf": "/matrix/static/media/MerriweatherSans-VariableFont_wght.dc49a2b85adaab28d7fc.ttf",
-    "index.html": "/matrix/index.html",
-    "main.393906f7.css.map": "/matrix/static/css/main.393906f7.css.map",
-    "main.f153a75b.js.map": "/matrix/static/js/main.f153a75b.js.map",
-    "787.ec704a7a.chunk.js.map": "/matrix/static/js/787.ec704a7a.chunk.js.map"
+    "main.css": "/static/css/main.53974a0f.css",
+    "main.js": "/static/js/main.567e9762.js",
+    "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
+    "static/media/MerriweatherSans-VariableFont_wght.ttf": "/static/media/MerriweatherSans-VariableFont_wght.dc49a2b85adaab28d7fc.ttf",
+    "index.html": "/index.html",
+    "main.53974a0f.css.map": "/static/css/main.53974a0f.css.map",
+    "main.567e9762.js.map": "/static/js/main.567e9762.js.map",
+    "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.393906f7.css",
-    "static/js/main.f153a75b.js"
+    "static/css/main.53974a0f.css",
+    "static/js/main.567e9762.js"
   ]
 }
